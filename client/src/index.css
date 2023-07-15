@@ -1,17 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap');
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Playfair Display', serif; */
 
+/* //navbar css */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   line-height: 26px;
   text-transform: uppercase;
@@ -99,10 +99,8 @@
   justify-content: center;
 }
 
-.register{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70vh;
-  flex-direction: column;
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
 }
