@@ -42,7 +42,7 @@ const Login = () => {
     <Layout title="Register - Ecommer App">
       <div className="form-container ">
         <form onSubmit={handleSubmit}>
-          <h4 className="title">LOGIN FORM</h4>
+          <h4 className="title">LOGIN User</h4>
 
           <div className="mb-3">
             <input
